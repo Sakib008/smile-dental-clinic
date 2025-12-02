@@ -42,7 +42,7 @@ export default function Navigation() {
           }`}>
           <Link href="/" className="flex items-center space-x-2">
             <div className="h-10 w-10 rounded-full bg-gradient-to-br from-royal to-teal flex items-center justify-center shadow-md">
-              <span className="text-white font-bold text-lg">SB</span>
+              <img src="https://res.cloudinary.com/de0bt7qfe/image/upload/v1764666313/generated-image_10_vypkcj.jpg" alt="SmileBright Logo" className="rounded-full" />
             </div>
             <span className="font-bold text-xl text-foreground hidden sm:block">SmileBright</span>
           </Link>

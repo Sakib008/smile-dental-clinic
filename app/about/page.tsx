@@ -1,40 +1,44 @@
-"use client"
+"use client";
 
-import { Button } from "@/components/ui/button"
-import { Card, CardContent } from "@/components/ui/card"
-import { Award, Heart, Users, Shield } from "lucide-react"
-import Image from "next/image"
-import Link from "next/link"
-import { motion } from "framer-motion"
-import { GlassCard } from "@/components/ui/glass-card"
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { Award, Heart, Users, Shield } from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
+import { motion } from "framer-motion";
+import { GlassCard } from "@/components/ui/glass-card";
 
 export default function AboutPage() {
   const teamMembers = [
     {
       name: "Dr. Sarah Smith",
       role: "Lead Dentist & Founder",
-      image: "/placeholder.svg?height=300&width=300",
+      image:
+        "https://res.cloudinary.com/de0bt7qfe/image/upload/v1764666455/generated-image_15_b90jvm.jpg",
       bio: "15+ years experience in general and cosmetic dentistry",
     },
     {
       name: "Dr. Michael Johnson",
       role: "Associate Dentist",
-      image: "/placeholder.svg?height=300&width=300",
+      image:
+        "https://res.cloudinary.com/de0bt7qfe/image/upload/v1764666369/pexels-rdne-6129573_ao80kx.jpg",
       bio: "Specialist in pediatric and family dentistry",
     },
     {
       name: "Lisa Thompson",
       role: "Dental Hygienist",
-      image: "/placeholder.svg?height=300&width=300",
+      image:
+        "https://res.cloudinary.com/de0bt7qfe/image/upload/v1764666370/pexels-pavel-danilyuk-5998467_m1w0iy.jpg",
       bio: "Certified hygienist with 10 years experience",
     },
     {
       name: "Emma Wilson",
       role: "Practice Manager",
-      image: "/placeholder.svg?height=300&width=300",
+      image:
+        "https://res.cloudinary.com/de0bt7qfe/image/upload/v1764666368/pexels-shkrabaanthony-5215024_luyyeg.jpg",
       bio: "Ensuring smooth operations and patient care",
     },
-  ]
+  ];
 
   const values = [
     {
@@ -57,7 +61,7 @@ export default function AboutPage() {
       title: "Trust & Safety",
       description: "Your health and safety are our top priorities",
     },
-  ]
+  ];
 
   return (
     <div className="flex flex-col">
@@ -86,7 +90,8 @@ export default function AboutPage() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              Dedicated to providing exceptional dental care with a personal touch since 2008
+              Dedicated to providing exceptional dental care with a personal
+              touch since 2008
             </motion.p>
           </div>
         </div>
@@ -107,16 +112,20 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-4 text-gray-600 dark:text-gray-400 leading-relaxed">
                 <p>
-                  SmileBright Dental was founded in 2008 with a simple mission: to make quality dental care accessible
-                  and stress-free for everyone in our London community.
+                  SmileBright Dental was founded in 2008 with a simple mission:
+                  to make quality dental care accessible and stress-free for
+                  everyone in our London community.
                 </p>
                 <p>
-                  What started as a small practice has grown into a trusted dental home for hundreds of families, but
-                  we've never lost sight of our core values of compassionate care and clinical excellence.
+                  What started as a small practice has grown into a trusted
+                  dental home for hundreds of families, but we've never lost
+                  sight of our core values of compassionate care and clinical
+                  excellence.
                 </p>
                 <p>
-                  Our team combines years of experience with the latest dental technology to ensure you receive the best
-                  possible care in a comfortable, welcoming environment.
+                  Our team combines years of experience with the latest dental
+                  technology to ensure you receive the best possible care in a
+                  comfortable, welcoming environment.
                 </p>
               </div>
             </motion.div>
@@ -129,7 +138,7 @@ export default function AboutPage() {
             >
               <div className="relative z-10">
                 <Image
-                  src="/placeholder.svg?height=400&width=500"
+                  src="https://res.cloudinary.com/de0bt7qfe/image/upload/v1764666313/generated-image_10_vypkcj.jpg"
                   alt="SmileBright Dental clinic interior"
                   width={500}
                   height={400}
@@ -158,10 +167,13 @@ export default function AboutPage() {
                   <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-royal/20 to-teal/20 flex items-center justify-center mb-6">
                     <Award className="w-7 h-7 text-royal" />
                   </div>
-                  <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Our Mission</h3>
+                  <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
+                    Our Mission
+                  </h3>
                   <p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed">
-                    To make quality dental care accessible & stress-free for every patient, providing comprehensive
-                    treatments in a comfortable, caring environment.
+                    To make quality dental care accessible & stress-free for
+                    every patient, providing comprehensive treatments in a
+                    comfortable, caring environment.
                   </p>
                 </div>
               </GlassCard>
@@ -177,10 +189,13 @@ export default function AboutPage() {
                   <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-teal/20 to-royal/20 flex items-center justify-center mb-6">
                     <Heart className="w-7 h-7 text-teal" />
                   </div>
-                  <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Our Vision</h3>
+                  <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
+                    Our Vision
+                  </h3>
                   <p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed">
-                    Smile with confidence, every day. We envision a community where everyone has access to excellent
-                    dental care and the confidence that comes with a healthy smile.
+                    Smile with confidence, every day. We envision a community
+                    where everyone has access to excellent dental care and the
+                    confidence that comes with a healthy smile.
                   </p>
                 </div>
               </GlassCard>
@@ -225,8 +240,12 @@ export default function AboutPage() {
                 <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-royal/10 to-teal/10 flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform">
                   <value.icon className="h-8 w-8 text-royal" />
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">{value.title}</h3>
-                <p className="text-gray-600 dark:text-gray-400">{value.description}</p>
+                <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
+                  {value.title}
+                </h3>
+                <p className="text-gray-600 dark:text-gray-400">
+                  {value.description}
+                </p>
               </motion.div>
             ))}
           </div>
@@ -279,11 +298,15 @@ export default function AboutPage() {
                         <Shield className="w-6 h-6 text-white" />
                       </div>
                     </div>
-                    <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-1">{member.name}</h3>
+                    <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-1">
+                      {member.name}
+                    </h3>
                     <p className="text-transparent bg-clip-text bg-gradient-to-r from-royal to-teal font-medium mb-2">
                       {member.role}
                     </p>
-                    <p className="text-gray-600 dark:text-gray-400 text-sm">{member.bio}</p>
+                    <p className="text-gray-600 dark:text-gray-400 text-sm">
+                      {member.bio}
+                    </p>
                   </div>
                 </GlassCard>
               </motion.div>
@@ -315,7 +338,8 @@ export default function AboutPage() {
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
           >
-            Join our dental family and discover what personalized care feels like
+            Join our dental family and discover what personalized care feels
+            like
           </motion.p>
           <motion.div
             className="flex flex-col sm:flex-row gap-4 justify-center"
@@ -334,8 +358,10 @@ export default function AboutPage() {
             <Button
               size="lg"
               variant="outline"
-              className="h-14 px-8 text-lg border-2 border-white text-white hover:bg-white/10 rounded-full hover:-translate-y-1 transition-all duration-300"
-              onClick={() => window.open('https://wa.me/447012345678', '_blank')}
+              className="h-14 px-8 text-lg border-2 border-white bg-royal text-white hover:bg-white/10 rounded-full hover:-translate-y-1 transition-all duration-300"
+              onClick={() =>
+                window.open("https://wa.me/447012345678", "_blank")
+              }
             >
               WhatsApp Us
             </Button>
@@ -343,5 +369,5 @@ export default function AboutPage() {
         </div>
       </section>
     </div>
-  )
+  );
 }

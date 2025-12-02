@@ -16,7 +16,7 @@ export default function BlogPage() {
       title: "What to Expect in Your First Visit",
       excerpt:
         "Nervous about your first dental appointment? Here's a complete guide to what happens during your initial consultation and examination.",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "https://res.cloudinary.com/de0bt7qfe/image/upload/v1764666363/pexels-rdne-6129499_z9pnu6.jpg",
       date: "March 15, 2024",
       author: "Dr. Sarah Smith",
       category: "Patient Care",
@@ -27,7 +27,7 @@ export default function BlogPage() {
       title: "How to Maintain a Whiter Smile",
       excerpt:
         "Professional tips and tricks to keep your teeth bright and white between dental visits. Learn about foods, habits, and products that help.",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "https://res.cloudinary.com/de0bt7qfe/image/upload/v1764666369/Image_of_professional_Teeth_Whitening_service_in_square_format_iatfka.jpg",
       date: "March 10, 2024",
       author: "Lisa Thompson",
       category: "Oral Hygiene",
@@ -38,7 +38,7 @@ export default function BlogPage() {
       title: "Foods That Damage Your Teeth",
       excerpt:
         "Discover which common foods and drinks can harm your dental health and learn about healthier alternatives for your smile.",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "https://res.cloudinary.com/de0bt7qfe/image/upload/v1764666354/pexels-cottonbro-6502343_uda0wm.jpg",
       date: "March 5, 2024",
       author: "Dr. Michael Johnson",
       category: "Nutrition",
@@ -49,7 +49,7 @@ export default function BlogPage() {
       title: "The Benefits of Regular Dental Check-ups",
       excerpt:
         "Why preventive care is crucial for your oral health and how regular visits can save you time, money, and discomfort in the long run.",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "https://res.cloudinary.com/de0bt7qfe/image/upload/v1764666357/pexels-olly-3884103_vmunr1.jpg",
       date: "February 28, 2024",
       author: "Dr. Sarah Smith",
       category: "Preventive Care",
@@ -60,7 +60,7 @@ export default function BlogPage() {
       title: "Understanding Dental Anxiety",
       excerpt:
         "Tips and techniques to help you overcome dental anxiety and feel more comfortable during your dental appointments.",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "https://res.cloudinary.com/de0bt7qfe/image/upload/v1764666362/pexels-shvets-production-8413387_gtzosr.jpg",
       date: "February 20, 2024",
       author: "Emma Wilson",
       category: "Patient Care",
@@ -71,7 +71,7 @@ export default function BlogPage() {
       title: "Invisalign vs Traditional Braces",
       excerpt:
         "Comparing modern clear aligners with traditional metal braces to help you choose the best orthodontic treatment for your needs.",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "https://res.cloudinary.com/de0bt7qfe/image/upload/v1764666366/generated-image_10_qiqml7.jpg",
       date: "February 15, 2024",
       author: "Dr. Michael Johnson",
       category: "Orthodontics",
@@ -82,7 +82,7 @@ export default function BlogPage() {
       title: "Children's Dental Health: A Parent's Guide",
       excerpt:
         "Essential tips for maintaining your child's oral health, from first teeth to teenage years. Learn when to start dental visits.",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "https://res.cloudinary.com/de0bt7qfe/image/upload/v1764666366/Close-up_face_image_of_a_child_with_healthy_teeth_from_Pediatric_Dentistry_in_square_format_houvbz.jpg",
       date: "February 10, 2024",
       author: "Dr. Sarah Smith",
       category: "Pediatric Dentistry",
@@ -93,7 +93,7 @@ export default function BlogPage() {
       title: "The Truth About Teeth Whitening",
       excerpt:
         "Separating fact from fiction about teeth whitening treatments. What works, what doesn't, and what's safe for your teeth.",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "https://res.cloudinary.com/de0bt7qfe/image/upload/v1764666361/pexels-shvetsa-3845843_dl7oyi.jpg",
       date: "February 5, 2024",
       author: "Lisa Thompson",
       category: "Cosmetic Dentistry",
@@ -104,7 +104,7 @@ export default function BlogPage() {
       title: "Emergency Dental Care: When to Seek Help",
       excerpt:
         "Learn to identify dental emergencies and understand when you need immediate professional care versus when you can wait.",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "https://res.cloudinary.com/de0bt7qfe/image/upload/v1764667889/Before_and_after_image_of_Emergency_Dental_Care_in_rectangle_format_ugc27m.jpg",
       date: "January 30, 2024",
       author: "Dr. Sarah Smith",
       category: "Emergency Care",

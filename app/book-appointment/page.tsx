@@ -397,8 +397,8 @@ Thank you!`
           >
             <GlassCard className="max-w-4xl mx-auto border-2 border-white/20">
               <div className="p-8 text-center">
-                <h3 className="text-2xl font-bold text-white mb-4">Dental Emergency?</h3>
-                <p className="text-white/90 mb-6">
+                <h3 className="text-2xl font-bold text-red-500 mb-4">Dental Emergency?</h3>
+                <p className=" text-red-600 mb-6">
                   If you're experiencing severe pain, trauma, or other dental emergencies, don't wait for a scheduled
                   appointment. Call us immediately.
                 </p>

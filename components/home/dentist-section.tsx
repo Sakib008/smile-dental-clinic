@@ -19,7 +19,7 @@ export default function DentistSection() {
                     >
                         <div className="relative z-10">
                             <Image
-                                src="/placeholder-user.jpg"
+                                src="https://res.cloudinary.com/de0bt7qfe/image/upload/v1764666455/generated-image_15_b90jvm.jpg"
                                 alt="Dr. Sarah Smith - Lead Dentist"
                                 width={500}
                                 height={600}

@@ -1,13 +1,24 @@
-"use client"
+"use client";
 
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
-import { Stethoscope, Sparkles, Smile, Brush, Heart, Scissors, Shield, Baby, Check, Phone } from "lucide-react"
-import Link from "next/link"
-import Image from "next/image"
-import { motion } from "framer-motion"
-import { GlassCard } from "@/components/ui/glass-card"
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import {
+  Stethoscope,
+  Sparkles,
+  Smile,
+  Brush,
+  Heart,
+  Scissors,
+  Shield,
+  Baby,
+  Check,
+  Phone,
+} from "lucide-react";
+import Link from "next/link";
+import Image from "next/image";
+import { motion } from "framer-motion";
+import { GlassCard } from "@/components/ui/glass-card";
 
 export default function ServicesPage() {
   const services = [
@@ -15,75 +26,120 @@ export default function ServicesPage() {
       icon: Stethoscope,
       title: "General Check-ups",
       description: "Comprehensive oral health examinations and preventive care",
-      features: ["Oral health assessment", "X-rays when needed", "Cleaning", "Treatment planning"],
+      features: [
+        "Oral health assessment",
+        "X-rays when needed",
+        "Cleaning",
+        "Treatment planning",
+      ],
       price: "From £80",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "https://res.cloudinary.com/de0bt7qfe/image/upload/v1764668062/generated-image_19_dkbgkn.jpg",
     },
     {
       icon: Scissors,
       title: "Tooth Extractions",
       description: "Safe and comfortable tooth removal procedures",
-      features: ["Simple extractions", "Surgical extractions", "Wisdom teeth removal", "Post-care guidance"],
+      features: [
+        "Simple extractions",
+        "Surgical extractions",
+        "Wisdom teeth removal",
+        "Post-care guidance",
+      ],
       price: "From £120",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "https://res.cloudinary.com/de0bt7qfe/image/upload/c_fill,w_800,h_325/v1764666366/generated-image_11_rlgeu0.jpg",
     },
     {
       icon: Smile,
       title: "Invisalign / Braces",
       description: "Straighten your teeth with modern orthodontic solutions",
-      features: ["Invisalign clear aligners", "Traditional braces", "Consultation included", "Progress monitoring"],
+      features: [
+        "Invisalign clear aligners",
+        "Traditional braces",
+        "Consultation included",
+        "Progress monitoring",
+      ],
       price: "From £2,500",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "https://res.cloudinary.com/de0bt7qfe/image/upload/v1764666366/generated-image_10_qiqml7.jpg",
     },
     {
       icon: Sparkles,
       title: "Cosmetic Smile Design",
       description: "Transform your smile with our cosmetic treatments",
-      features: ["Veneers", "Bonding", "Smile makeovers", "Digital smile preview"],
+      features: [
+        "Veneers",
+        "Bonding",
+        "Smile makeovers",
+        "Digital smile preview",
+      ],
       price: "From £400",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "https://res.cloudinary.com/de0bt7qfe/image/upload/v1764666369/Image_of_professional_Teeth_Whitening_service_in_square_format_iatfka.jpg",
     },
     {
       icon: Baby,
       title: "Pediatric Dentistry",
       description: "Gentle dental care specially designed for children",
-      features: ["Child-friendly environment", "Preventive treatments", "Fluoride applications", "Dental education"],
+      features: [
+        "Child-friendly environment",
+        "Preventive treatments",
+        "Fluoride applications",
+        "Dental education",
+      ],
       price: "From £60",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "https://res.cloudinary.com/de0bt7qfe/image/upload/v1764666366/Close-up_face_image_of_a_child_with_healthy_teeth_from_Pediatric_Dentistry_in_square_format_houvbz.jpg",
     },
     {
       icon: Brush,
       title: "Professional Cleaning",
       description: "Deep cleaning and hygiene treatments",
-      features: ["Scale and polish", "Stain removal", "Gum disease prevention", "Oral hygiene advice"],
+      features: [
+        "Scale and polish",
+        "Stain removal",
+        "Gum disease prevention",
+        "Oral hygiene advice",
+      ],
       price: "From £70",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "https://res.cloudinary.com/de0bt7qfe/image/upload/v1764666359/pexels-olly-3881290_lwgsyw.jpg",
     },
     {
       icon: Sparkles,
       title: "Teeth Whitening",
       description: "Professional whitening for a brighter smile",
-      features: ["In-office whitening", "Take-home kits", "Custom trays", "Long-lasting results"],
+      features: [
+        "In-office whitening",
+        "Take-home kits",
+        "Custom trays",
+        "Long-lasting results",
+      ],
       price: "From £300",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "https://res.cloudinary.com/de0bt7qfe/image/upload/v1764666353/pexels-olly-3946834_xo7kqs.jpg",
     },
     {
       icon: Heart,
       title: "Root Canal Treatment",
       description: "Save your natural teeth with gentle endodontic care",
-      features: ["Pain-free procedures", "Advanced techniques", "Crown placement", "Follow-up care"],
+      features: [
+        "Pain-free procedures",
+        "Advanced techniques",
+        "Crown placement",
+        "Follow-up care",
+      ],
       price: "From £400",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "https://res.cloudinary.com/de0bt7qfe/image/upload/v1764666354/pexels-cottonbro-6502343_uda0wm.jpg",
     },
     {
       icon: Shield,
       title: "Emergency Dental Care",
       description: "Urgent dental treatment when you need it most",
-      features: ["Same-day appointments", "Pain relief", "Temporary repairs", "24/7 advice line"],
+      features: [
+        "Same-day appointments",
+        "Pain relief",
+        "Temporary repairs",
+        "24/7 advice line",
+      ],
       price: "From £100",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "https://res.cloudinary.com/de0bt7qfe/image/upload/v1764667889/Before_and_after_image_of_Emergency_Dental_Care_in_rectangle_format_ugc27m.jpg",
     },
-  ]
+  ];
 
   return (
     <div className="flex flex-col">
@@ -112,7 +168,8 @@ export default function ServicesPage() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              Comprehensive dental care for you and your family, from routine check-ups to advanced treatments
+              Comprehensive dental care for you and your family, from routine
+              check-ups to advanced treatments
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -172,7 +229,9 @@ export default function ServicesPage() {
                     <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-3 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-royal group-hover:to-teal transition-all duration-300">
                       {service.title}
                     </h3>
-                    <p className="text-gray-600 dark:text-gray-400 mb-4">{service.description}</p>
+                    <p className="text-gray-600 dark:text-gray-400 mb-4">
+                      {service.description}
+                    </p>
 
                     {/* Features list */}
                     <ul className="space-y-2 mb-6 flex-grow">
@@ -223,19 +282,24 @@ export default function ServicesPage() {
             viewport={{ once: true }}
           >
             <GlassCard className="max-w-4xl mx-auto text-center border-2 border-white/20">
-              <div className="p-12">
-                <div className="w-20 h-20 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center mx-auto mb-6">
-                  <Shield className="h-12 w-12 text-white" />
-                </div>
-                <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">Dental Emergency?</h2>
-                <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-                  Don't wait in pain. We offer same-day emergency appointments for urgent dental issues.
+              <div className="p-8 text-red-500">
+                <h2 className="text-2xl lg:text-3xl font-bold  mb-4">
+                  Dental Emergency?
+                </h2>
+                <p className="text-xl text-red-700 mb-8 max-w-2xl mx-auto">
+                  Don't wait in pain. We offer same-day emergency appointments
+                  for urgent dental issues.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <Button
                     size="lg"
                     className="h-14 px-8 text-lg bg-white text-red-600 hover:bg-gray-100 rounded-full shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
-                    onClick={() => window.open('https://wa.me/447012345678?text=Emergency%20Dental%20Care%20Needed', '_blank')}
+                    onClick={() =>
+                      window.open(
+                        "https://wa.me/447012345678?text=Emergency%20Dental%20Care%20Needed",
+                        "_blank"
+                      )
+                    }
                   >
                     <Phone className="h-5 w-5 mr-2" />
                     Emergency WhatsApp
@@ -244,9 +308,11 @@ export default function ServicesPage() {
                     asChild
                     size="lg"
                     variant="outline"
-                    className="h-14 px-8 text-lg border-2 border-white text-white hover:bg-white/10 rounded-full hover:-translate-y-1 transition-all duration-300"
+                    className="h-14 px-8 text-lg border-2 border-white text-black rounded-full hover:-translate-y-1 transition-all duration-300"
                   >
-                    <Link href="/book-appointment">Book Emergency Appointment</Link>
+                    <Link href="/book-appointment">
+                      Book Emergency Appointment
+                    </Link>
                   </Button>
                 </div>
               </div>
@@ -278,7 +344,8 @@ export default function ServicesPage() {
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
           >
-            Book a consultation today and let us help you achieve optimal oral health
+            Book a consultation today and let us help you achieve optimal oral
+            health
           </motion.p>
           <motion.div
             className="flex flex-col sm:flex-row gap-4 justify-center"
@@ -297,7 +364,9 @@ export default function ServicesPage() {
             <Button
               size="lg"
               className="h-14 px-8 text-lg border-2 border-white text-white hover:bg-white/10 rounded-full hover:-translate-y-1 transition-all duration-300"
-              onClick={() => window.open('https://wa.me/447012345678', '_blank')}
+              onClick={() =>
+                window.open("https://wa.me/447012345678", "_blank")
+              }
             >
               <Phone className="h-5 w-5 mr-2" />
               WhatsApp Us
@@ -306,5 +375,5 @@ export default function ServicesPage() {
         </div>
       </section>
     </div>
-  )
+  );
 }
