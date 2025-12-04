@@ -30,7 +30,7 @@ export default function HeroSection() {
             >
               <Badge className="bg-white/80 dark:bg-white/10 backdrop-blur-sm text-royal border-royal/20 px-4 py-2 text-sm font-medium shadow-sm mb-4">
                 <Sparkles className="w-4 h-4 mr-2 fill-royal" />
-                #1 Rated Dental Clinic in London
+                #1 Rated Dental Clinic in Delhi
               </Badge>
             </motion.div>
 
@@ -54,7 +54,7 @@ export default function HeroSection() {
                 variant="outline"
                 size="lg"
                 className="h-14 px-8 text-lg border-2 border-royal text-royal hover:bg-royal/5 rounded-full hover:-translate-y-1 transition-all duration-300"
-                onClick={() => window.open('https://wa.me/447012345678', '_blank')}
+                onClick={() => window.open('https://wa.me/919612345678', '_blank')}
               >
                 <Phone className="h-5 w-5 mr-2" />
                 WhatsApp Now

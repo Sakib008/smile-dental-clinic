@@ -41,7 +41,7 @@ export default function LocationSection() {
                                     </div>
                                     <div>
                                         <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-1">Our Location</h3>
-                                        <p className="text-gray-600 dark:text-gray-400">123 Dental Street, London, UK SW1A 1AA</p>
+                                        <p className="text-gray-600 dark:text-gray-400">123 Kailash Hills, East of Kailash, Delhi</p>
                                         <p className="text-sm text-royal mt-2 font-medium cursor-pointer hover:underline">Get Directions</p>
                                     </div>
                                 </div>
@@ -55,8 +55,8 @@ export default function LocationSection() {
                                         </div>
                                         <div>
                                             <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-1">Contact Us</h3>
-                                            <p className="text-gray-600 dark:text-gray-400">+44 20 1234 5678</p>
-                                            <p className="text-sm text-gray-500 mt-1">info@smilebright.co.uk</p>
+                                            <p className="text-gray-600 dark:text-gray-400">+91 96123 45678</p>
+                                            <p className="text-sm text-gray-500 mt-1">info@smilebright.co.in</p>
                                         </div>
                                     </div>
                                 </GlassCard>

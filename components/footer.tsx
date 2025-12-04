@@ -59,19 +59,19 @@ export default function Footer() {
                 <div className="p-2 bg-gray-900 rounded-lg group-hover:bg-royal/20 transition-colors">
                   <MapPin className="h-5 w-5 text-royal" />
                 </div>
-                <span className="text-gray-400 text-sm leading-relaxed">123 Dental Street,<br />London, UK</span>
+                <span className="text-gray-400 text-sm leading-relaxed">123 Kailash Hills,<br />East of Kailash, Delhi</span>
               </div>
               <div className="flex items-center space-x-3 group">
                 <div className="p-2 bg-gray-900 rounded-lg group-hover:bg-teal/20 transition-colors">
                   <Phone className="h-5 w-5 text-teal" />
                 </div>
-                <span className="text-gray-400 text-sm">+44 20 1234 5678</span>
+                <span className="text-gray-400 text-sm">+91 96 1234 5678</span>
               </div>
               <div className="flex items-center space-x-3 group">
                 <div className="p-2 bg-gray-900 rounded-lg group-hover:bg-royal/20 transition-colors">
                   <Mail className="h-5 w-5 text-royal" />
                 </div>
-                <span className="text-gray-400 text-sm">info@smilebright.co.uk</span>
+                <span className="text-gray-400 text-sm">info@smilebright.co.in</span>
               </div>
             </div>
           </div>

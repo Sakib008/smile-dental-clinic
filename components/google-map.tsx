@@ -10,9 +10,9 @@ interface GoogleMapProps {
 }
 
 export default function GoogleMap({
-    address = "123 Dental Street, London, UK SW1A 1AA",
-    lat = 51.5074,
-    lng = -0.1278,
+    address = "123 Kailash Hills, East of Kailash, Delhi",
+    lat = 28.561417,
+    lng = 77.250587,
     zoom = 15
 }: GoogleMapProps) {
     const mapRef = useRef<HTMLDivElement>(null)
